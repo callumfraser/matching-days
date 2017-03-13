@@ -1,0 +1,93 @@
+table, th, td{
+border-collapse: collapse;
+border: 1px solid black;
+}
+
+table{
+background-color: white;
+}
+.firstDate{
+  background-color: red;
+}
+.secondDate{
+background-color: blue;
+}
+
+.matchingDays{
+  background-color: green;
+}
+
+.weekTable{
+  margin: auto;
+
+}
+
+th, td{
+ height: 50px;
+ width: 80px;
+ text-align: center;
+}
+
+body{
+  background-image: url('smile.gif')
+}
+
+img.body{
+  opacity: 40;
+}
+
+.heading{
+ margin-bottom: 50px;
+ text-align: center;
+ margin-top: 20px;
+ height: 70px;
+ background-color: rgba(129, 214, 124, 0.7);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ width: 100%;
+}
+
+h1{
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-weight: lighter;
+}
+
+.para{
+width: 40%;
+background-color: rgba(82, 176, 24, 0.7);
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.input-area{
+ background-color: rgba(154, 215, 122, 0.9);
+ padding-top: 20px;
+ padding-left: 10px;
+ padding-bottom: 20px;
+ padding right: 10px;
+ margin-top: 20px;
+ text-align: center;
+}
+
+.tInput::first-line{
+  color: red;
+}
+
+
+.tInput{
+  width: 40%;
+  background-color: rgba(30, 190, 120, 0.8);
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: blue;
+  font-weight: bold;
+}
+
+#firstDate{
+  margin-bottom: 10px;
+}
